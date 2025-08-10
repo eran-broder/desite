@@ -155,14 +155,14 @@ body {
   transform: scale(1.05);
 }
 
-/* Contact Section - Minimal */
+/* Contact Section - Business Card Style */
 .contact {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f8f6f3;
-  color: #1a1a1a;
+  background: #0a0a0a;
+  color: #fff;
   position: relative;
 }
 
@@ -173,21 +173,14 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.4;
+  opacity: 0.1;
   background-image: 
     repeating-linear-gradient(
       45deg,
       transparent,
       transparent 35px,
-      rgba(255, 255, 255, 0.1) 35px,
-      rgba(255, 255, 255, 0.1) 70px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 35px,
-      rgba(0, 0, 0, 0.015) 35px,
-      rgba(0, 0, 0, 0.015) 70px
+      rgba(255, 255, 255, 0.02) 35px,
+      rgba(255, 255, 255, 0.02) 70px
     );
   pointer-events: none;
 }
@@ -196,6 +189,17 @@ body {
   text-align: center;
   position: relative;
   z-index: 1;
+  background: #faf9f7;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 2.5rem 4.375rem;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  width: 420px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contact-content h2 {
@@ -208,7 +212,7 @@ body {
 
 .title {
   font-size: 1rem;
-  color: #5a5a5a;
+  color: #666;
   margin-bottom: 2rem;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -222,12 +226,16 @@ body {
 }
 
 .contact-links a {
-  color: #2a2a2a;
+  color: #1a1a1a;
   text-decoration: none;
   font-size: 1rem;
   padding: 8px 0;
   position: relative;
   transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .contact-links a::after {
@@ -237,9 +245,15 @@ body {
   left: 0;
   right: 0;
   height: 1px;
-  background: #2a2a2a;
+  background: #1a1a1a;
   transform: scaleX(0);
   transition: transform 0.3s ease;
+}
+
+.contact-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.8;
 }
 
 .contact-links a:hover::after {
@@ -264,6 +278,12 @@ body {
     font-size: 1rem;
   }
   
+  .contact-content {
+    width: 360px;
+    height: 206px;
+    padding: 1.5rem 2.625rem;
+  }
+  
   .contact-content h2 {
     font-size: 1.5rem;
   }
@@ -284,6 +304,12 @@ body {
   
   .tagline {
     font-size: 0.9rem;
+  }
+  
+  .contact-content {
+    width: 320px;
+    height: 183px;
+    padding: 1rem 1.75rem;
   }
   
   .cta-button {

@@ -47,8 +47,16 @@ function App() {
           <h2>Eran Broder, MD</h2>
           <p className="title">Autonomous Agent Architect</p>
           <div className="contact-links">
-            <a href="mailto:eran@digitalenzymes.com">eran@digitalenzymes.com</a>
-            <a href="https://www.linkedin.com/in/eran-broder-md/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="mailto:eran@digitalenzymes.com">
+              <svg className="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" />
+              </svg>
+              eran@digitalenzymes.com
+            </a>
+            <a href="https://www.linkedin.com/in/eran-broder-md/" target="_blank" rel="noopener noreferrer">
+              <img src="/linkedin.png" alt="LinkedIn" className="contact-icon" />
+              LinkedIn
+            </a>
           </div>
         </div>
       </section>

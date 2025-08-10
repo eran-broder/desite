@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && netlify deploy --prod --dir=dist --site=531df836-7f9c-41e2-8c7a-df22e44b51d7"
   },
   "dependencies": {
     "@rollup/rollup-win32-x64-msvc": "^4.46.2",
