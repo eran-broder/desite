@@ -3,10 +3,11 @@ import './App.css';
 function App() {
   const clients = [
     { name: 'DataRails', logo: '/logos/datarails.png', needsBackground: true, url: 'https://www.datarails.com/' },
-    { name: 'Digma', logo: '/logos/digma.jpg', needsBackground: true, url: 'https://digma.ai/' },
+    { name: 'Port Growth Partners', logo: '/logos/port-growth-partners.png', needsBackground: true, url: 'https://portgrowthpartners.com/' },
     { name: 'OpenOps', logo: '/logos/openops.png', needsBackground: true, url: 'https://www.openops.com/' },
     { name: 'TargetBoard', logo: '/logos/targetboard.png?v=2', needsBackground: true, url: 'https://www.targetboard.ai/' },
-    { name: 'Wotch', logo: '/logos/wotch.png', needsBackground: true, url: 'https://www.wotch.health/' }
+    { name: 'Wotch', logo: '/logos/wotch.png', needsBackground: true, url: 'https://www.wotch.health/' },
+    { name: 'Digma', logo: '/logos/digma.jpg', needsBackground: true, url: 'https://digma.ai/' }
   ];
   return (
     <div className="App">
