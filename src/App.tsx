@@ -4,8 +4,10 @@ function App() {
   const clients = [
     { name: 'DataRails', logo: '/logos/datarails.png', needsBackground: true, url: 'https://www.datarails.com/' },
     { name: 'Port Growth Partners', logo: '/logos/port-growth-partners.png', needsBackground: true, url: 'https://portgrowthpartners.com/' },
+    { name: 'Vim', logo: '/logos/Vim.png', needsBackground: true, url: 'https://www.vim.com/' },
     { name: 'OpenOps', logo: '/logos/openops.png', needsBackground: true, url: 'https://www.openops.com/' },
     { name: 'TargetBoard', logo: '/logos/targetboard.png?v=2', needsBackground: true, url: 'https://www.targetboard.ai/' },
+    { name: 'Handshaik', logo: '/logos/handshaik.png', needsBackground: true, url: 'https://www.handshaik.com/' },
     { name: 'Wotch', logo: '/logos/wotch.png', needsBackground: true, url: 'https://www.wotch.health/' },
     { name: 'Digma', logo: '/logos/digma.jpg', needsBackground: true, url: 'https://digma.ai/' }
   ];
